@@ -1,0 +1,5 @@
+services:
+  app:
+    build: .
+    image: devops-lab10:latest
+    command: python app.py
